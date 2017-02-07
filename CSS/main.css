@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+/* CSS Reset */
+
+* {
+    /*remove spacing*/
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.intro h1 {
+    font-family: 'Barrio', cursive;
+}
+
+a {
+    color: inherit;
+}
+
+.first {
+    background-image: url("../images/giphy.gif");
+    /*stretch image and stop it tiling*/
+    background-size: cover;
+    /*full height background image
+vh= viewport height and makes the images height match the viewport*/
+    min-height: 90vh;
+    color: white
+}
+
+header {
+    padding: 5% 5% 0% 5%;
+}
+
+h1 {
+    font-size: 9rem
+}
+
+.center {
+    text-align: center;
+}
+
+.first div {
+    padding: 2%;
+}
+
+#about {
+    background-color: violet;
+    padding: 20px;
+}
+
+.box {
+    background-color: white;
+    margin: 15vh auto;
+    max-width: 700px;
+    padding: 40px;
+}
+
+iframe {
+    width: 100%
+}
+
+#skills {
+    margin: 70px
+}
+
+#skills h2 {
+    text-align: center;
+}
+
+#skills div {
+    text-align: center;
+    padding: 5vh;
+}
+
+.maps iframe {
+    pointer-events: none;
+}
+
+#experience .grid {
+    width: 80%;
+    margin: 2vh auto;
+}
+
+#experience h2 {
+    text-align: center;
+    padding: 5vh;
+}
+#contact{
+  padding: 5vh;
+  background-color: grey
+}
